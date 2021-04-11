@@ -1,0 +1,57 @@
+float noteDuration = 0;
+
+void setup()
+{
+  pinMode(6, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+}
+
+void loop()
+{
+  noteDuration = 0.125;
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  delay(50);
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  delay(50);
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  // helpful single-line comment here
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  delay(50);
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  // helpful single-line comment here
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  digitalWrite(3, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(3, LOW);
+  digitalWrite(4, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(4, LOW);
+  digitalWrite(5, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(5, LOW);
+  // helpful single-line comment here
+  digitalWrite(6, HIGH);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+  digitalWrite(6, LOW);
+  delay(1000 * noteDuration); // Wait for 1000 * noteDuration millisecond(s)
+}
